@@ -18,7 +18,7 @@
     </header>
     <main class="page">
       <h1>Gizlilik Politikası</h1>
-      <p class="meta">Son güncelleme: 12 Eylül 2026</p>
+      <p class="meta">Son güncelleme: 17 Eylül 2026</p>
       <p class="lead">Bu politika, Otorit mobil uygulamasında hangi verilerin neden işlendiğini ve kullanıcıların seçeneklerini açıklar.</p>
       <div class="notice"><strong>Önemli</strong>Otorit reklam göstermez, kişisel verileri satmaz ve kullanıcıları reklam amacıyla takip etmez.</div>
       <nav class="content-nav" aria-label="Sayfa içeriği"><a href="#sorumlu">Sorumlu</a><a href="#veriler">Veriler</a><a href="#amac">Amaçlar</a><a href="#paylasim">Paylaşım</a><a href="#saklama">Saklama</a><a href="#haklar">Haklar</a></nav>
@@ -28,11 +28,12 @@
 
       <h2 id="veriler">2. İşlenen veriler</h2>
       <ul>
-        <li><strong>Hesap:</strong> Kullanıcı kimliği, ad ve e-posta adresi. Giriş için Apple, Google veya önceden e-posta ve şifreyle açılmış bir Otorit hesabı kullanılır. E-posta ile girişte Otorit şifreniz kimlik doğrulama hizmetine güvenli bağlantıyla iletilir.</li>
+        <li><strong>Hesap:</strong> Kullanıcı kimliği, ad ve e-posta adresi. Güncel uygulamada Apple veya Google ile giriş yapılır.</li>
         <li><strong>İşletme:</strong> işletme adı, telefon, adres ve isteğe bağlı logo.</li>
         <li><strong>Müşteri ve araç:</strong> ad, telefon, plaka, marka/model/yıl; isteğe bağlı şasi ve motor numarası.</li>
         <li><strong>Servis:</strong> müşteri talepleri, yapılan işlemler, fiyatlar, kilometre, teslim bilgileri, notlar ve isteğe bağlı servis fotoğrafları.</li>
         <li><strong>Belgeler:</strong> tamamlanan servis kayıtlarından oluşturulan PDF servis dökümleri.</li>
+        <li><strong>Premium ve destek:</strong> Bu özelliklerin sunulduğu sürümlerde abonelik ürün ve işlem kimlikleri, aboneliğin geçerlilik ve iade bilgileri, gönderdiğiniz görüşler ve destek yanıtları. Kart veya ödeme hesabı bilgilerinizi Otorit’e girmezsiniz; App Store ödemeleri Apple tarafından işlenir.</li>
         <li><strong>Güvenlik:</strong> hesap ve işletme kimlikleri, işlem zamanları, hata sınıfları ve kötüye kullanımı önlemeye yarayan sınırlı teknik kayıtlar.</li>
       </ul>
       <p>Otorit cihaz rehberini, hassas konumu, mikrofonu veya reklam kimliğini toplamaz. Fotoğraf erişimi yalnız kullanıcının seçtiği görseller veya açıkça başlattığı kamera çekimi için kullanılır.</p>
@@ -40,6 +41,7 @@
       <h2 id="amac">3. Kullanım amaçları</h2>
       <ul>
         <li>Hesabı doğrulamak ve güvenli oturum sağlamak.</li>
+        <li>Deneme ve Premium erişimini, doğrulanmış satın almaları ve abonelik durumunu yönetmek.</li>
         <li>İşletmeye ait müşteri, araç ve servis geçmişini oluşturmak ve göstermek.</li>
         <li>Servis PDF’si oluşturmak ve yazdırmak.</li>
         <li>Yetkisiz erişimi, tekrar eden işlemleri ve teknik hataları önlemek.</li>
@@ -47,13 +49,16 @@
       </ul>
 
       <h2 id="paylasim">4. Hizmet sağlayıcılar ve aktarım</h2>
-      <p>Uygulama altyapısı için Supabase’in kimlik doğrulama, veritabanı, dosya saklama ve sunucusuz işlev hizmetleri kullanılır. Apple veya Google ile giriş yapmayı seçtiğinizde ilgili sağlayıcı kimliğinizi doğrular. E-posta girişi Supabase Auth üzerinden yürütülür. Bu sağlayıcılara yalnız hizmetin çalışması için gerekli veriler aktarılır.</p>
+      <p>Uygulama altyapısı için Supabase’in kimlik doğrulama, veritabanı, dosya saklama ve sunucusuz işlev hizmetleri kullanılır. Apple veya Google ile giriş yapmayı seçtiğinizde ilgili sağlayıcı kimliğinizi doğrular. Bu sağlayıcılara yalnız hizmetin çalışması için gerekli veriler aktarılır.</p>
       <p>Veriler seçilen barındırma bölgesinde ve sağlayıcıların alt işleyenleri kapsamında yurt dışında işlenebilir. Gerçek müşteri verisiyle üretim kullanımından önce yurt dışı aktarım mekanizması ve alt işleyen listesi hukuki incelemeyle kesinleştirilmelidir.</p>
       <p>Bu herkese açık bilgi sayfaları GitHub Pages üzerinde barındırılır; Otorit müşteri, araç veya servis verileri GitHub Pages’e gönderilmez.</p>
 
       <h2 id="saklama">5. Saklama ve silme</h2>
-      <p>Hesap ve işletme verileri hizmet aktif olduğu sürece tutulur. Servis geçmişi ve tamamlanmış PDF’ler kayıt bütünlüğünü korumak için değiştirilemez sürümler halinde saklanabilir. Hesap silme işlemi <a href="account-deletion.html">hesap silme sayfasındaki</a> adımlarla başlatılır. Silinecek işletmeler ve gerekiyorsa sahiplik devri onaydan önce gösterilir. Devam eden ortak işletme geçmişinde hesabınıza ait kullanıcı atıfları anonimleştirilir; bu atıfları içeren sunucu PDF kopyaları kaldırılır. Sonuç uygulama içinde doğrulanır.</p>
-      <p>Yasal olarak tutulması zorunlu veriler yalnız ilgili yükümlülük ve süreyle sınırlı olarak saklanabilir. Yedeklerde kalan kopyalar sağlayıcının güvenli yedek döngüsü içinde erişilemez hale gelir. Ayrıntılı saklama süreleri hukuk ve ürün sahibi onayı olmadan kesinleştirilmiş sayılmaz.</p>
+      <p>Hesap ve işletme verileri hizmet aktif olduğu sürece tutulur. Servis geçmişi ve tamamlanmış PDF’ler kayıt bütünlüğünü korumak için değiştirilemez sürümler halinde saklanır. Deneme veya aboneliğin sona ermesi kayıtları kendiliğinden silmez. Hesap silme işlemi <a href="account-deletion.html">hesap silme sayfasındaki</a> adımlarla başlatılır; silinecek işletmeler ve gerekiyorsa sahiplik devri onaydan önce gösterilir.</p>
+      <p>Onaylanan silmede giriş hesabınız, profiliniz, kişisel görüşleriniz ve ilgili operasyon kayıtları kaldırılır. Başka aktif üyesi olmayan sahibi olduğunuz işletme, açık onayınızla müşterileri, araçları, servis geçmişi, fotoğraf ve PDF dosyalarıyla silinir. Ortak işletmelerin iş kayıtları diğer üyeler için kalır; hesabınızın aktör bağlantıları ve danışman adınız kaldırılır. Adınızı içeren eski servis PDF’leri silinir; diğer yetkililer temizlenmiş kayıttan yeni PDF oluşturabilir.</p>
+      <p>Tamamlanan silme için kimlik bilgisi içermeyen talep numarası, işlem sonucu ve zaman kaydı tutulur. Önceden dışa aktarılmış dosyalar veya alıcıların kopyaları geri çağrılamaz. Ortak kayıtların serbest metinlerinde kişisel bilgi kaldığını biliyorsanız <a href="support.html">destek/gizlilik kanalından</a> ayrıca bildirebilirsiniz.</p>
+      <p>Silme tamamlandığında ilgili bilgiler canlı sistemden kaldırılır. Altyapı yedeklerinde bulunabilecek kopyalar normal uygulama erişimine açık değildir ve sağlayıcının geçerli saklama ve silme süreçlerine tabidir. Canlı sistemden silme, tüm altyapı kopyalarının aynı anda yok olduğu anlamına gelmez. Yedekten geri yükleme yapılması halinde, tamamlanmış silme taleplerinin sistem yeniden kullanıma açılmadan önce tekrar uygulanması gerekir. Saklama ve silmeyle ilgili talepleriniz için gizlilik iletişim adresimize başvurabilirsiniz.</p>
+      <p>Yasal olarak tutulması zorunlu veriler yalnız ilgili yükümlülük ve süreyle sınırlı olarak saklanabilir.</p>
 
       <h2 id="guvenlik">6. Güvenlik</h2>
       <p>Her işletmenin verileri ayrı tutulur; erişim, kullanıcıların işletmedeki yetkileriyle sınırlandırılır. Servis fotoğrafları ve PDF’ler herkese açık değildir. Bununla birlikte hiçbir internet hizmeti mutlak güvenlik garantisi veremez.</p>
